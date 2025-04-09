@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contacts.css">
+</head>
+<body>
+    
+ <header class="contact-header">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Reach out using the details below.</p>
+    </header>
+
+    <section class="contact-container">
+        <div class="contact-info">
+            <h2>Our Address</h2>
+            <p>📍 LEAP Lesotho Housing</p>
+            <h2>Call Us</h2>
+            <p>📞 56384267</p>
+            <h2>Email</h2>
+            <p>✉️ <a href="mailto:visualpoint25@gmail.com">visualpoint25@gmail.com</a></p>
+            <h2>Follow Us</h2>
+            <p>🔗 <a href="http://WWW.facebook.com/share/IEq6GdANVc" target="_blank">Facebook Page</a></p>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form onsubmit="sendEmail(event)">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
